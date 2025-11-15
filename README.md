@@ -45,11 +45,11 @@ pip install nome_da_biblioteca
 🚦 Passo a Passo Para Rodar o Projeto
 ✔️ 1️⃣ Ativar o MySQL
 Abra o XAMPP e ligue:
-
+✔️ MySQL
 
 ---
  
-✔️ MySQL
+
 ✔️ 2️⃣ Criar os bancos de dados no MySQL Workbench
 
 
