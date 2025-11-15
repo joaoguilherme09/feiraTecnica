@@ -30,25 +30,25 @@ Este projeto foi criado com foco em **lógica de programação**, **tratamento d
 ## 📦 Instalação de Bibliotecas
 
 Antes de rodar o projeto, execute os comandos necessários:
-
-
 pip install pymysql
 pip install unicodedata
-⚠️ Caso o código apresente erro de importação, basta instalar escrevendo:
 
-Copiar código
+
+
+⚠️ Caso o código apresente erro de importação, basta instalar escrevendo:
+Copiar código:
 pip install nome_da_biblioteca
 
 
-
+---
 
 🚦 Passo a Passo Para Rodar o Projeto
 ✔️ 1️⃣ Ativar o MySQL
 Abra o XAMPP e ligue:
 
 
-
-Copiar código
+---
+ 
 ✔️ MySQL
 ✔️ 2️⃣ Criar os bancos de dados no MySQL Workbench
 
@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS jogadas (
 );
 
 
-
+---
 
 ✔️ 3️⃣ Abrir o projeto no VS Code
 Abra o Visual Studio Code
@@ -80,14 +80,16 @@ Clique em Open Folder
 
 Selecione a pasta chamada TERMŌ
 
+
+---
+
 ✔️ 4️⃣ Instalar dependências (caso falte alguma)
 No terminal do VS Code, execute:
-
-Copiar código
+ 
 pip install pymysql
 pip install unicodedata
 
-
+---
 
 
 ✔️ 5️⃣ Rodar o script banco.py
@@ -95,8 +97,6 @@ Esse script irá ler todas as palavras e criar as tabelas no banco automaticamen
 
 A saída esperada é parecida com:
 
-
-Copiar código
 🔍 Lendo arquivo...
 📄 Palavras lidas do arquivo: 6033
 ✅ Palavras únicas após limpeza: 5433
@@ -108,9 +108,10 @@ Copiar código
 📌 Criando tabela palavras_6...
 ✅ Inseridas 5433 palavras em 6 tabelas!
 🏁 Concluído!
+
+
+---
+
 ✔️ 6️⃣ Executar o jogo
 Agora rode:
-
-sh
-Copiar código
 python semiTermo.py
